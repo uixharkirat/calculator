@@ -1,0 +1,53 @@
+:root{
+  --side-btn-color: orange;
+}
+
+button {
+    border: none;
+    background-color: white;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 2px;
+    outline: none;
+}
+
+.sidebutton {
+    border: none;
+    background-color: var(--side-btn-color);
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+}
+
+.equals{
+  grid-column: 4/5;
+  background-color: var(--side-btn-color);
+  color: white;
+}
+
+button:hover{
+  background-color: lightgray;
+}
+
+.zero{
+  grid-column: 1/3;
+}
+
+.btn.operator {
+  background-color: orange;
+  color: white;
+
+}
+.btn.operator:hover{
+  background-color: lightgrey;
+}
+
+
+
+
+  
